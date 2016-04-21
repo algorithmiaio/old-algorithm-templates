@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ivysettings>
+
+  <settings defaultResolver="maven-central" defaultConflictManager="all"/>
+
+  <resolvers>
+
+    <!-- Maven Central repo -->
+    <ibiblio name="maven-central" m2compatible="true"/>
+
+  </resolvers>
+
+</ivysettings>

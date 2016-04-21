@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ivysettings>
+
+  <settings defaultResolver="chained" defaultConflictManager="all"/>
+
+  <resolvers>
+
+    <!-- Chained resolver -->
+    <chain name="chained">
+
+      <!-- Maven Central repo -->
+      <ibiblio name="maven-central" m2compatible="true"/>
+
+      <!-- Algorithmia Maven Repository -->
+      <ibiblio name="algorithmia-maven" m2compatible="true" root="${repo.url}/maven" changingPattern=".*SNAPSHOT" />
+
+    </chain>
+
+  </resolvers>
+
+</ivysettings>

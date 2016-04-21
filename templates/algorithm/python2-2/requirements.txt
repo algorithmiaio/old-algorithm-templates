@@ -1,0 +1,7 @@
+# requirements.txt
+# Include python dependencies here
+
+#Example:
+#scikit-learn
+
+algorithmia>=1.0.0
