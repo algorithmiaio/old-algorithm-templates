@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ivysettings>
 
-  <settings defaultResolver="maven-central" defaultConflictManager="all"/>
+  <settings defaultResolver="maven-central" defaultConflictManager="latest-revision"/>
 
   <resolvers>
 

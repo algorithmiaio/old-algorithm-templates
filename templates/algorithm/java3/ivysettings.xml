@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ivysettings>
 
-  <settings defaultResolver="chained" defaultConflictManager="all"/>
+  <settings defaultResolver="chained" defaultConflictManager="latest-revision"/>
 
   <resolvers>
 
